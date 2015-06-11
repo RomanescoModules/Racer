@@ -15,7 +15,7 @@ for item in lock.children()
 			trackPath = item.controlPath.clone()
 			trackPath.visible = true
 			trackPath.closed = true
-			trackPath.fillColor = 'red'
+			trackPath.fillColor = 'blue'
 			track.addChild(trackPath)
 		when 'checkpoint'
 			lock.checkpoints.push(item)
