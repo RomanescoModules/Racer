@@ -5,7 +5,7 @@ lock.checkpoints = []
 lock.gameStarted = false
 
 track = new CompoundPath()
-track.fillColor = 'red'
+track.fillColor = 'green'
 lock.track = track
 
 for item in lock.children()
